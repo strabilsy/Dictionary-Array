@@ -1,0 +1,41 @@
+Using 10-words.txt:
+==32266== Command: ./lab2 10-words.txt dictionary.txt
+==32266== Parent PID: 32115
+==32266==
+==32266==
+==32266== HEAP SUMMARY:
+==32266==     in use at exit: 0 bytes in 0 blocks
+==32266==   total heap usage: 13 allocs, 13 frees, 1,392 bytes allocated
+==32266==
+==32266== All heap blocks were freed -- no leaks are possible
+==32266==
+==32266== For counts of detected and suppressed errors, rerun with: -v
+==32266== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 4 from 4)
+
+Using 105-words.txt:
+==32262== Command: ./lab2 105-words.txt dictionary.txt
+==32262== Parent PID: 32115
+==32262==
+==32262==
+==32262== HEAP SUMMARY:
+==32262==     in use at exit: 0 bytes in 0 blocks
+==32262==   total heap usage: 111 allocs, 111 frees, 5,229 bytes allocated
+==32262==
+==32262== All heap blocks were freed -- no leaks are possible
+==32262==
+==32262== For counts of detected and suppressed errors, rerun with: -v
+==32262== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 4 from 4)
+
+Using 42K-words.txt:
+==32232== Command: ./lab2 42K-words.txt dictionary.txt
+==32232== Parent PID: 32115
+==32232==
+==32232==
+==32232== HEAP SUMMARY:
+==32232==     in use at exit: 0 bytes in 0 blocks
+==32232==   total heap usage: 42,136 allocs, 42,136 frees, 1,245,480 bytes allo$
+==32232==
+==32232== All heap blocks were freed -- no leaks are possible
+==32232==
+==32232== For counts of detected and suppressed errors, rerun with: -v
+==32232== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 4 from 4)
